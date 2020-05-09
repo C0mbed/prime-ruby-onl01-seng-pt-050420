@@ -1,3 +1,3 @@
 def prime(num)
-  return num.prime
+  return num.prime?
 end
