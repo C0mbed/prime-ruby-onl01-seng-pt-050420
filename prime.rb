@@ -1,5 +1,6 @@
 def prime?(num)
   if num < num
+    puts "num is #{num}"
     return false
   else
     for i in 2..num-1
