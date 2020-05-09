@@ -1,7 +1,7 @@
 def prime?(num)
-  count = 1
+  count = 2
   while count < num
-    if num % count == 0
+    if num % count == 0 
       return true
     end
     count += 1
