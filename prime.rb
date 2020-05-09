@@ -1,10 +1,10 @@
 def prime?(num)
-  test_nums = [1..num]
+  count = 1
   while count < num
     if num % count == 0 
-      return true
+      return false
     end
     count += 1
   end
-  return false 
+  return true
 end
