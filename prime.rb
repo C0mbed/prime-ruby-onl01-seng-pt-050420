@@ -1,5 +1,5 @@
 def prime?(num)
-  count = 1
+  test_nums = [1..num]
   while count < num
     if num % count == 0 
       return true
