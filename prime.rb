@@ -5,7 +5,7 @@ def prime?(num)
   end
   for i in 2..num-1
     if num % i == 0 || num < 0
-        return false
+      return false
       end
     end
   end
