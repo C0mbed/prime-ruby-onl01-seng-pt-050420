@@ -1,3 +1,6 @@
 def prime?(num)
-  return num.prime?
+  if num % 2 == 0
+    return true
+  else
+    return false
 end
